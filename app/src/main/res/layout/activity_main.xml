@@ -8,26 +8,16 @@
     tools:ignore="ExtraText"
     android:padding="10dp"
     >
-    <TextView
-        android:id="@+id/tvTaskName"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="No Task was added"
-        android:textAlignment="center"
-        android:textColor="@color/purple_500"
-        android:textSize="20sp"
-        android:textStyle="bold"
-        android:layout_margin="20dp"
-        />
+
     <!-- LinearLayout container for dynamically adding CheckBox elements -->
     <LinearLayout
         android:id="@+id/checkboxContainer"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical"
-        android:layout_below="@id/tvTaskName"
         android:layout_marginTop="20dp">
         <!-- CheckBox elements will be added here dynamically -->
+
     </LinearLayout>
     <Button
         android:id="@+id/btnAddTask"
