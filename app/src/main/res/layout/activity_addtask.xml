@@ -13,8 +13,15 @@
         android:layout_height="59dp"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="100dp"
+        android:layout_marginTop="50dp"
         android:ems="10"
-        android:hint="Add your task" />
+        android:hint="Enter the Task" />
+
+    <Button
+        android:id="@+id/btnConfirmAddTask"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add the Task"
+        android:textAllCaps="false"/>
 
 </LinearLayout>
